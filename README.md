@@ -5,7 +5,7 @@
 [![DeepSource](https://app.deepsource.com/gh/cityssm/font-awesome-v5-iconclasses.svg/?label=active+issues&show_trend=true&token=HbrQdvk66zStAN8dgUpDF1uV)](https://app.deepsource.com/gh/cityssm/font-awesome-v5-iconclasses/?ref=repository-badge)
 [![codecov](https://codecov.io/gh/cityssm/font-awesome-v5-iconclasses/graph/badge.svg?token=YN9VDY6NJX)](https://codecov.io/gh/cityssm/font-awesome-v5-iconclasses)
 
-Font Awesome V5 class names, for lookups and more!
+[Font Awesome](https://fontawesome.com/) V5 class names, for lookups and more!
 
 ## Installation
 
