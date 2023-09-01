@@ -1,0 +1,43 @@
+{
+  "name": "@cityssm/font-awesome-v5-iconclasses",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "description": "Font Awesome V5 class names, for lookups and more!",
+  "keywords": [
+    "font-awesome",
+    "font-awesome-v5",
+    "icons"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./index": "./index.js",
+    "./index.js": "./index.js"
+  },
+  "scripts": {
+    "test": "cross-env NODE_ENV=dev DEBUG=green-button-*  mocha --timeout 60000",
+    "coverage": "cross-env NODE_ENV=dev DEBUG=green-button-* c8 --reporter=lcov --reporter=text --reporter=text-summary mocha --timeout 60000 --exit"
+  },
+  "author": "The Corporation of the City of Sault Ste. Marie",
+  "license": "MIT",
+  "homepage": "https://github.com/cityssm/font-awesome-v5-iconclasses#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityssm/font-awesome-v5-iconclasses.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cityssm/font-awesome-v5-iconclasses/issues"
+  },
+  "dependencies": {
+    "font-awesome-v5-icons": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.5.7",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.48.0",
+    "eslint-config-cityssm": "^0.4.0"
+  }
+}

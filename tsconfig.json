@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "Node",
+    "isolatedModules": false,
+    "declaration": true,
+    "removeComments": true,
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true
+  },
+  "compileOnSave": true,
+  "buildOnSave": true
+}
