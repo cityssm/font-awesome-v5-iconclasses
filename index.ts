@@ -20,7 +20,7 @@ const iconClasses: Record<FontAwesomeV5Styles, string[]> = {
   brands: []
 }
 
-export async function getIconClassesByStyle(
+export default async function getIconClassesByStyle(
   style: FontAwesomeV5Styles
 ): Promise<string[]> {
   if (iconClasses[style].length === 0) {

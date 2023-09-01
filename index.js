@@ -11,7 +11,7 @@ const iconClasses = {
     regular: [],
     brands: []
 };
-export async function getIconClassesByStyle(style) {
+export default async function getIconClassesByStyle(style) {
     if (iconClasses[style].length === 0) {
         const allIcons = await _getIcons();
         const list = [];
